@@ -1,0 +1,43 @@
+.main-content {
+    padding: 20px;
+    text-align: center;
+
+    h2 {
+        margin-bottom: 10px;
+    }
+
+    .features {
+        margin-top: 20px;
+
+        h3 {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+
+            li {
+                margin: 5px 0;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .main-content {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

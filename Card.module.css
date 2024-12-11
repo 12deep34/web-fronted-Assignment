@@ -1,0 +1,16 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+  .card {
+    padding: 10px;
+    font-size: 1rem;
+  }
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
